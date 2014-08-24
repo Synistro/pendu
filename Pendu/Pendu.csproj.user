@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>ftp://corentin.gregware.ch:2114/|ftp://corentin.gregware.ch:2114/pendu/|C:\Users\Corentin\Documents\Projets\Pendu\</PublishUrlHistory>
+    <InstallUrlHistory>http://corentin.gregware.ch/pendu/|http://corentin.gregware.ch/</InstallUrlHistory>
+    <SupportUrlHistory />
+    <UpdateUrlHistory />
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+</Project>

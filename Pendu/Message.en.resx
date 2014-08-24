@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DemandeLettre" xml:space="preserve">
+    <value>Please enter a letter.</value>
+  </data>
+  <data name="DemandePrenom" xml:space="preserve">
+    <value>Hello and Welcome.
+What's your name?</value>
+  </data>
+  <data name="DemandeRejouer" xml:space="preserve">
+    <value>Do you want to play again?</value>
+  </data>
+  <data name="Diff1" xml:space="preserve">
+    <value>easy</value>
+  </data>
+  <data name="Diff1Desc" xml:space="preserve">
+    <value>1 - Easy &lt;15 health points&gt;</value>
+  </data>
+  <data name="Diff2" xml:space="preserve">
+    <value>normal</value>
+  </data>
+  <data name="Diff2Desc" xml:space="preserve">
+    <value>2 - Normal &lt;10 health points&gt;</value>
+  </data>
+  <data name="Diff3" xml:space="preserve">
+    <value>hard</value>
+  </data>
+  <data name="Diff3Desc" xml:space="preserve">
+    <value>3 - Hard &lt;5 health points&gt;</value>
+  </data>
+  <data name="DiffChoix" xml:space="preserve">
+    <value>Nice to meet you {0}, please choose your difficulty level.</value>
+  </data>
+  <data name="DispDifficulte" xml:space="preserve">
+    <value>Alright {0}, the game is set to difficulty {1}.</value>
+  </data>
+  <data name="DispMeilleurScore" xml:space="preserve">
+    <value>High score (to beat): {0}</value>
+  </data>
+  <data name="DispMot" xml:space="preserve">
+    <value>Here is the word to guess: {0}</value>
+  </data>
+  <data name="En" xml:space="preserve">
+    <value>2 - English / Anglais</value>
+  </data>
+  <data name="ErreurNombre" xml:space="preserve">
+    <value>
+Please a valid number.</value>
+  </data>
+  <data name="FinFalse" xml:space="preserve">
+    <value>What a pity! You're dead, {0}. The word was {1}.</value>
+  </data>
+  <data name="FinTrue" xml:space="preserve">
+    <value>Hurray! You win, {0}, the word was indeed {1}
+You scored {2} point{3}.</value>
+  </data>
+  <data name="Fr" xml:space="preserve">
+    <value>1 - Français / French</value>
+  </data>
+  <data name="Langue" xml:space="preserve">
+    <value>Parlez-vous français ou anglais?
+Do you speak english or french?</value>
+  </data>
+  <data name="LettreFalse" xml:space="preserve">
+    <value>The letter {0} does not exist in this word. You still have {1} health point{2}.</value>
+  </data>
+  <data name="LettreJouee" xml:space="preserve">
+    <value>You already entered this letter.</value>
+  </data>
+  <data name="LettreTrue" xml:space="preserve">
+    <value>Congratulations, the letter {0} is the {1}° letter of the word.</value>
+  </data>
+  <data name="MessageBienvenue" xml:space="preserve">
+    <value>THE HANGMAN
+High score: {0}</value>
+  </data>
+  <data name="NouveauMeilleurScore" xml:space="preserve">
+    <value>Yeaaaah! You broke the high score! (old one: {1})</value>
+  </data>
+  <data name="Rejouer1" xml:space="preserve">
+    <value>1 - Yes</value>
+  </data>
+  <data name="Rejouer2" xml:space="preserve">
+    <value>2 - No</value>
+  </data>
+  <data name="TitreConsole" xml:space="preserve">
+    <value>THE HANGMAN</value>
+  </data>
+</root>
